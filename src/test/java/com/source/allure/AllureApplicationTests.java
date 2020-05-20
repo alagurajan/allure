@@ -16,11 +16,18 @@ public class AllureApplicationTests {
 	@Story("Main Testing")
 	@Test(testName = "Main Testing Method", description = "This is the test against one thing")
 	public void Testing() {
-
+	 	Checking1();
+		Checking2();
+		Checking3();
+		Checking4();
+		Checking5();
+		Checking6();
+		Checking7();
+		Checking8();
 	}
 	@Feature("Install & Configuration")
 	@Story("Preparing")
-	@Test(priority = 0, description = "Set up environment")
+	//@Test(priority = 0, description = "Set up environment")
 	@BeforeClass
 	public void setup(){
 		Assert.assertEquals(2, 2);
@@ -29,7 +36,7 @@ public class AllureApplicationTests {
 
 	@Feature("Install & Configuration")
 	@Story("Installation")
-	@Test(priority = 1, description = "Installation test")
+	//@Test(priority = 1, description = "Installation test")
 	public void Checking1(){
 		System.out.println("This is our test scenario 1");
 		Assert.assertEquals(2, 2);
@@ -38,7 +45,7 @@ public class AllureApplicationTests {
 
 	@Feature("Install & Configuration")
 	@Story("Configuration")
-	@Test(priority = 2, description = "Configuration test")
+	//@Test(priority = 2, description = "Configuration test")
 	public void Checking2(){
 		System.out.println("This is our test scenario 2");
 		Assert.assertEquals(2, 2);
@@ -47,7 +54,7 @@ public class AllureApplicationTests {
 
 	@Feature("Check Adapter Status")
 	@Story("Adapter status")
-	@Test(priority = 3, description = "Adapter Check test")
+	//@Test(priority = 3, description = "Adapter Check test")
 	public void Checking3(){
 		System.out.println("This is our test scenario 3");
 		Assert.assertEquals(2, 2);
@@ -55,7 +62,7 @@ public class AllureApplicationTests {
 
 	@Feature("Object Validation")
 	@Story("Adapter Instance")
-	@Test(priority = 4, description = "Validate Adapter Instance Test")
+	//@Test(priority = 4, description = "Validate Adapter Instance Test")
 	public void Checking4(){
 		System.out.println("This is our test scenario 3");
 		Assert.assertEquals(2, 2);
@@ -63,7 +70,7 @@ public class AllureApplicationTests {
 
 	@Feature("Object Validation")
 	@Story("Adapter Services")
-	@Test(priority = 5, description = "Validate Adapter Services Test")
+	//@Test(priority = 5, description = "Validate Adapter Services Test")
 	public void Checking5(){
 		System.out.println("This is our test scenario 3");
 		Assert.assertEquals(2, 2);
@@ -71,7 +78,7 @@ public class AllureApplicationTests {
 
 	@Feature("Object Validation")
 	@Story("Service Objects")
-	@Test(priority = 6, description = "Validate Adapter Service Object Test")
+	//@Test(priority = 6, description = "Validate Adapter Service Object Test")
 	public void Checking6(){
 		System.out.println("This is our test scenario 3");
 		Assert.assertEquals(2, 2);
@@ -79,7 +86,7 @@ public class AllureApplicationTests {
 
 	@Feature("Remove the Adapter")
 	@Story("Remove the Credential")
-	@Test(priority = 7, description = "Validate Remove Credentail Test")
+	//@Test(priority = 7, description = "Validate Remove Credentail Test")
 	public void Checking7(){
 		System.out.println("This is our test scenario 3");
 		Assert.assertEquals(2, 2);
@@ -87,7 +94,7 @@ public class AllureApplicationTests {
 
 	@Feature("Remove the Adapter")
 	@Story("Remove the Adapter")
-	@Test(priority = 8, description = "Validate Remove Adapter Test")
+	//@Test(priority = 8, description = "Validate Remove Adapter Test")
 	public void Checking8(){
 		System.out.println("This is our test scenario 3");
 		Assert.assertEquals(2, 2);
