@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 @Epic("GCP MP E2E API Automation")
-@SpringBootTest
+// @SpringBootTest
 public class AllureApplicationTests {
 
 	@Feature("GCP MP Validation")
